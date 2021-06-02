@@ -6,22 +6,13 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions (
-		features = "src\\test\\resources\\features", 
-		glue="TestAequilibrium", 
-		
+@CucumberOptions(features = "src\\test\\resources\\features", glue = "TestAequilibrium",
 
-		dryRun=false, 
-		monochrome = true
-		,strict=true
-	,tags= "@smokeTest"
-		, plugin= { "pretty",
-				"html:target\\cucumber-default-report",
-				"json:target\\cucumber.json"
-				
-		}
-		)
-	
+		dryRun = false, monochrome = true, strict = true, tags = "@smokeTest", plugin = { "pretty",
+				"html:target\\cucumber-default-report", "json:target\\cucumber.json"
+
+		})
+
 public class Runner {
 	
 	
