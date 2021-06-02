@@ -1,0 +1,14 @@
+Test Cases – Login feature
+Following is the possible list of test cases for a login feature:
+
+	Verify if a user will be able to login with a valid username and valid password.	Positive
+	Verify the messages for valid login.							Positive
+	Verify if a user cannot login with a valid username and an invalid password.		Negative
+	Verify if a user cannot login with a invalid username and a valid password.		Negative
+	Verify if a user cannot login with  invalid credintials.				Negative
+	Verify the messages for invalid login.							Positive
+	Verify if a user cannot login with a valid username and an empty password.		Negative
+	Verify if a user cannot login with an empty username and an valid password.		Negative
+	Verify the messages for empty username/password login.					Positive
+	Verify if the login page allows to log in simultaneously with different credentials in a different browser.	Positive
+	Verify if the login button is working correctly on the login page.			Positive
